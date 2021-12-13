@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#insta {
+    font-size: 2rem;
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+#carouselSlidesOnly {
+    width: 50%;
+    margin: auto;
+    height: 30rem;
+    position: relative;
+    border-radius: 3rem;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item img {
+    border-radius: 25%;
+    width: 100%;
+    height: 70rem;
+}
